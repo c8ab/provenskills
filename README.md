@@ -3,6 +3,8 @@
 
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/c8ab/provenskills/badge)](https://scorecard.dev/viewer/?uri=github.com/c8ab/provenskills)
 
+> **Conceptual — we are exploring whether this approach can work.** Not yet ready for general use.
+
 Package AI skills as OCI artifacts — with provenance, signing, and standard registry distribution.
 
 ## What is Proven Skills?
