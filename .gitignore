@@ -1,0 +1,22 @@
+# Go binaries
+*.exe
+*.test
+*.out
+/psk
+
+# Vendor (not used, but guard against accidental commits)
+vendor/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env*
+*.log
+*.tmp
+*.swp
