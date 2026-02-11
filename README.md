@@ -37,6 +37,14 @@ Today `psk` can validate skill definitions, build packages to a local store, and
 
 - Go 1.23+
 
+### Install
+
+```sh
+go install github.com/c8ab/provenskills/cmd/psk@latest
+```
+
+This places the `psk` binary in your `$GOBIN` (usually `~/go/bin`). Make sure it's on your `PATH`.
+
 ### Build
 
 ```sh
