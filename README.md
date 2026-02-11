@@ -5,11 +5,11 @@
 
 > **Conceptual — we are exploring whether this approach can work.** Not yet ready for general use.
 
-Package AI skills as OCI artifacts — with provenance, signing, and standard registry distribution.
+Package [Agent Skills](https://agentskills.io) as OCI artifacts — with provenance, signing, and standard registry distribution.
 
 ## What is Proven Skills?
 
-Proven Skills (`psk`) packages AI skill definitions into OCI-compliant artifacts. Skills become versioned, signable, and distributable through any OCI registry — the same infrastructure already used for container images.
+Proven Skills (`psk`) packages [Agent Skills](https://agentskills.io) into OCI-compliant artifacts. Skills become versioned, signable, and distributable through any OCI registry — the same infrastructure already used for container images.
 
 ## Why OCI?
 
