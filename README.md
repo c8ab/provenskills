@@ -1,4 +1,7 @@
+
 # Proven Skills
+
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/c8ab/provenskills/badge)](https://scorecard.dev/viewer/?uri=github.com/c8ab/provenskills)
 
 Package AI skills as OCI artifacts — with provenance, signing, and standard registry distribution.
 
