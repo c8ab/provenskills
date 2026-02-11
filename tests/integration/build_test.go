@@ -9,18 +9,6 @@ import (
 	"testing"
 )
 
-// pskBinary returns the path to the compiled psk binary.
-// Tests must call buildPSK first to ensure it exists.
-func pskBinary(t *testing.T) string {
-	t.Helper()
-	// Binary is built to the project root
-	bin := filepath.Join(projectRoot(t), "psk")
-	if _, err := os.Stat(bin); err != nil {
-		t.Fatalf("psk binary not found at %s: run buildPSK first", bin)
-	}
-	return bin
-}
-
 // projectRoot returns the root directory of the project.
 func projectRoot(t *testing.T) string {
 	t.Helper()
@@ -63,7 +51,7 @@ func testdataDir(t *testing.T) string {
 
 // runPSK runs the psk binary with the given args and env vars.
 // Returns stdout, stderr, and the exit code.
-func runPSK(t *testing.T, bin string, env []string, args ...string) (string, string, int) {
+func runPSK(t *testing.T, bin string, env []string, args ...string) (outStr, errStr string, code int) {
 	t.Helper()
 	cmd := exec.Command(bin, args...)
 	cmd.Env = append(os.Environ(), env...)
